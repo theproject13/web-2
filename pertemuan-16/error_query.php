@@ -1,7 +1,7 @@
 <?php
 include "koneksi.php";
 
-$query = "SELECT * FROM mahasiswax";
+$query = "SELECT * FROM mahasiswa";
 
 $result = mysqli_query($koneksi,$query);
 
